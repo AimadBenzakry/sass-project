@@ -1,0 +1,21 @@
+.container-img-btn {
+    position: relative;
+
+  }
+  .btn-img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    opacity: 0;
+    transition: opacity .35s ease;
+  }
+
+  .container-img-btn:hover .btn-img {
+    opacity: 1;
+  }
+  .container-img-btn:hover .img-btn {
+    opacity: 0.4;
+  }
+  
